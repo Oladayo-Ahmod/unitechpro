@@ -1,8 +1,6 @@
 body{
 
-	background:linear-gradient(to left,orange,black);
-	margin-left:300px;
-	margin-top:60px;
+	background:grey;
 	background-position: center;
 }
 .animation{
@@ -19,8 +17,8 @@ body{
  margin:0;
  color:white;
  position: relative;
- top: -30px;
- left: -200px;
+ top: -15px;
+ left: 20px;
  bottom: -90px;
  opacity:1;
  font-weight:bold;
@@ -66,7 +64,7 @@ body{
 	background-color: black;
 	margin:10px;
 	color: red;
-	left:200px;
+	left:600px;
 	position: relative;
 }
 #container input[type="number"]{
@@ -75,18 +73,18 @@ body{
 	height:50px;
 	background-color:black;
 	position: relative;
-	left: 210px;
+	left: 610px;
 }
 .kilo{
 	position: relative;
-	left:115px;
+	left:515px;
 	bottom:55px;
 	font-size: 18px;
 	color:skyblue;
 }
 .gramm{
 	position: relative;
-	left:170px;
+	left:570px;
 	bottom:55px;
 	font-size: 18px;
 	color:skyblue;
@@ -94,9 +92,30 @@ body{
 }
 .mille{
 	position: relative;
-	left:107px;
+	left:550px;
 	bottom:55px;
 	font-size: 18px;
 	color:skyblue;
 
+}
+@media screen and (max-width: 800px){
+	.animation span{
+		position:relative;
+		left: 100px;
+		font-size: 20px;
+
+	}
+	.mille,.gramm{
+		left: 155px;
+	}
+	.kilo{
+		left: 115px;
+	}
+
+#kilograme,#gram,#millegram{
+	left:200px;
+}
+#container input[type="number"]{
+	left: 210px;
+}
 }

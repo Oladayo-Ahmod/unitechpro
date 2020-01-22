@@ -225,10 +225,33 @@ width: 250px;
 }
 .Ahmod{
 	color:#fff;
-	text-shadow: 6px 6px 6px salmon;
+	text-shadow: 4px 4px 4px black;
 	position: relative;
 	left:220px;
 }
 h2{
 	font-size: 14px;
+}
+@media screen and (max-width: 800px){
+	.marquee{
+		right:155px; 
+		width: 45%;
+	}
+	.marquee p{
+		font-size: 14px;
+	}
+	h3{
+		font-size: 15px;
+	}
+	ul,li{
+		font-size: 14px;
+	}
+	.Ahmod{
+		font-size: 15px;
+		width: 250px;
+	}
+	#container small{
+		font-size: 14px;
+		left: 150px;
+	}
 }
